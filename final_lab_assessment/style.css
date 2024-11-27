@@ -1,0 +1,107 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  margin: 20px;
+}
+
+/* align your h1 */
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* align your .nav element */
+.nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+.nav > a{
+  background-color: black;
+  color: white;
+  text-decoration-line: none;
+  padding: 10px;
+  margin: 4px;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+#student-list {
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+  margin: 0 auto;
+  border-collapse: collapse;
+  height: auto;
+}
+
+
+/* style your table border */
+
+#head{
+  text-align: center;
+}
+th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+
+
+#formMain{
+  text-align: center;
+}
+
+#addStudentButton {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: orangered;
+  color: black;
+  border: none;
+}
+
+#newStudentFormContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#newStudentForm {
+  display:block;
+  background-color: #1E3E62;
+  color: white;
+  width: 50%;
+}
+
+.new + a{
+  display: inline-block;
+  background-color: black;
+  color: white;
+}
+
+.backbtn{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration-line: none;
+  padding: 10px;
+  font-size: medium;
+}
+  

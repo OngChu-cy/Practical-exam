@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Student</title>
+    </head>
+    <link rel="stylesheet" href="/style.css">
+    <body>
+        <a class="backbtn" href="home.html">Back to Home Page</a>
+        <div id="formMain">
+            <!-- display the form on clicking the button -->
+            <button id="addStudentButton">Add a new student</button>
+
+            <div id="newStudentFormContainer">
+                <form action="" id="newStudentForm" onsubmit="validateForm()">
+                    <label for="name">Name: </label><br>
+                    <input type="text" id="name" name="name"><br>
+
+                    <label for="stdid">Student ID: </label><br>
+                    <input type="text" id="stdid" name="Student ID"><br>
+
+                    <label for="age">Age: </label><br>
+                    <input type="age" id="age" name="age"><br>
+
+                    <label for="email">email: </label><br>
+                    <input type="text" id="email" name="email"><br><br>
+
+                    <h5>Choose Your Gender</h5>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="others" name="gender" value="Others">
+                    <label for="others">Others</label><br><br>
+
+                    <label for="program">Choose your program</label>
+                    <select name="program" id="program">
+                        <option value="DCSN">DCSN</option>
+                        <option value="DMA">DMA</option>
+                    </select><br><br>
+
+                    <h5>Choose at least one hobby</h5>
+                    <input type="checkbox" id="dancing" name="hobby" value="Dancing">
+                    <label for="dancing">Dancing</label>
+                    <input type="checkbox" id="sleeping" name="hobby" value="Sleeping">
+                    <label for="sleeping">Sleeping</label>
+                    <input type="checkbox" id="music" name="hobby" value="Music">
+                    <label for="music">Music</label>
+                    <input type="checkbox" id="nothing" name="hobby" value="nothing">
+                    <label for="nothing">Nothing</label><br><br>
+                    
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                    
+                </form>
+            </div>
+        </div>
+    <script src="/script.js"></script>
+    </body>
+</html>
